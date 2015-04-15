@@ -3,7 +3,7 @@
  
 #include <EtherCard.h>
 
-#define STATIC 0  // set to 1 to disable DHCP (adjust myip/gwip values below)
+#define STATIC 1  // set to 1 to disable DHCP (adjust myip/gwip values below)
 
 #if STATIC
 // ethernet interface ip address
